@@ -61,9 +61,9 @@ class Calculator {
     }
     
     func multiply(_ nums: [Int]) -> Int {
-        var product = 0
+        var product = 1
         for num in nums {
-            product += num
+            product *= num
         }
         return product
     }
